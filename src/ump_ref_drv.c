@@ -1,12 +1,12 @@
 /*
  * Copyright (C) 2010-2013, 2016-2017 ARM Limited. All rights reserved.
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *       http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -22,10 +22,10 @@
 
 #include <ump/ump_ref_drv.h>
 #include <ump/ump.h>
-#include "ump_internal.h"
-#include "ump_arch.h"
-#include <ump/ump_debug.h>
-#include <ump/ump_osu.h>
+#include <ump_internal.h>
+#include <ump_arch.h>
+#include <ump_debug.h>
+#include <ump_osu.h>
 
 /* Allocate a buffer which can be used directly by hardware, 4kb aligned */
 static ump_handle ump_ref_drv_allocate_internal(unsigned long size, ump_alloc_constraints constraints, ump_cache_enabled cache);
