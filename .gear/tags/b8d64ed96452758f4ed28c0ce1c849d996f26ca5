@@ -1,0 +1,6 @@
+object 8ca3ef3a741aeac6ecb1a2f892881a58819becf5
+type commit
+tag v1.0
+tagger Dmitriy Zagrebin <dzagrebin@elvees.com> 1540986473 +0300
+
+Release v1.0
